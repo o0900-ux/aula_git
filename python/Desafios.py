@@ -23,7 +23,7 @@ for i in range(7):
     if dia in dias_uteis:
         dias_digitados.append(dia + "-feira")
 
-print("\nDias úteis da semana digitados pelo usuário:")
+print("\nDias uteis:")
 for dia in dias_digitados:
     print(dia)
 print('--------fim-------')
@@ -42,7 +42,7 @@ else:
     if primo:
         print(numero, "e um numero primo.")
     else:
-        print(numero, "não é um número primo.")
+        print(numero, "não e um numero primo.")
 print('--------fim-------')
 
 
